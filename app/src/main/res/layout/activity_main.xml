@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--第1行-->
+    <Button
+        android:id="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="0dp"
+        android:onClick="actionbusiness"
+        android:text="辅助功能"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="3dp" />
+    <Button
+        android:id="@+id/ACTION_ADD_ACCOUNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="添加帐户" />
+    <Button
+        android:id="@+id/ACTION_AIRPLANE_MODE_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="飞行模式" />
+    <Button
+        android:id="@+id/ACTION_APN_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="APN设置" />
+
+    <!--第2行-->
+    <Button
+        android:id="@+id/ACTION_APPLICATION_DETAILS_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-89dp"
+        android:layout_marginTop="49dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="包名跳转" />
+    <Button
+        android:id="@+id/ACTION_APPLICATION_DEVELOPMENT_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="49dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="开发人员" />
+    <Button
+        android:id="@+id/ACTION_APPLICATION_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="48dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="应用列表" />
+    <Button
+        android:id="@+id/ACTION_BLUETOOTH_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="48dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="蓝牙设置" />
+
+    <!--第3行-->
+    <Button
+        android:id="@+id/ACTION_DATA_ROAMING_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-89dp"
+        android:layout_marginTop="98dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="移动网络" />
+
+    <Button
+        android:id="@+id/ACTION_DATE_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="99dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="日期时间" />
+
+    <Button
+        android:id="@+id/ACTION_DEVICE_INFO_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="98dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="手机状态" />
+
+    <Button
+        android:id="@+id/ACTION_DISPLAY_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="98dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="手机显示" />
+
+    <!--第4行-->
+    <Button
+        android:id="@+id/ACTION_DREAM_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-90dp"
+        android:layout_marginTop="151dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="API18" />
+    <Button
+        android:id="@+id/ACTION_INPUT_METHOD_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="151dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="语言输入" />
+    <Button
+        android:id="@+id/ACTION_INPUT_METHOD_SUBTYPE_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="内部存储" />
+    <Button
+        android:id="@+id/ACTION_MEMORY_CARD_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="存储卡" />
+
+    <!--第5行-->
+
+    <Button
+        android:id="@+id/ACTION_INTERNAL_STORAGE_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-90dp"
+        android:layout_marginTop="199dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="外部存储" />
+
+    <Button
+        android:id="@+id/ACTION_LOCALE_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="198dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="语言选择" />
+
+    <Button
+        android:id="@+id/ACTION_LOCATION_SOURCE_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="197dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="位置服务" />
+
+    <Button
+        android:id="@+id/ACTION_NETWORK_OPERATOR_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="197dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="运营商" />
+
+    <!--第6行-->
+    <Button
+        android:id="@+id/ACTION_NFCSHARING_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-89dp"
+        android:layout_marginTop="248dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="NFC共享" />
+    <Button
+        android:id="@+id/ACTION_NFC_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="248dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="NFC设置" />
+    <Button
+        android:id="@+id/ACTION_WIFI_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="247dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="Wifi列表" />
+    <Button
+        android:id="@+id/ACTION_PRIVACY_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="247dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="备份重置" />
+    <!--第7行-->
+    <Button
+        android:id="@+id/ACTION_QUICK_LAUNCH_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-89dp"
+        android:layout_marginTop="299dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="快速启动" />
+    <Button
+        android:id="@+id/ACTION_SEARCH_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="299dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="搜索设置" />
+    <Button
+        android:id="@+id/ACTION_SECURITY_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="298dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="安全设置" />
+    <Button
+        android:id="@+id/ACTION_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="296dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="设置" />
+
+    <!--第8行-->
+    <Button
+        android:id="@+id/ACTION_SOUND_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-89dp"
+        android:layout_marginTop="350dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="声音设置" />
+    <Button
+        android:id="@+id/ACTION_SYNC_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="349dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="账户同步" />
+    <Button
+        android:id="@+id/ACTION_USER_DICTIONARY_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="349dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="用户字典" />
+    <Button
+        android:id="@+id/ACTION_WIFI_IP_SETTINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="349dp"
+        android:layout_toEndOf="@+id/ACTION_ACCESSIBILITY_SETTINGS"
+        android:onClick="actionbusiness"
+        android:text="IP设定" />
+
+</RelativeLayout>
